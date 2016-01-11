@@ -1,0 +1,106 @@
+2015-11-20 11:30:30 Error: [MissingViewException] View file "C:\wamp\www\cakephp-2.1.0\app\View\Usuarios\adicionar.ctp" is missing.
+#0 C:\wamp\www\cakephp-2.1.0\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp-2.1.0\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.1.0\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\cakephp-2.1.0\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.1.0\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-20 11:33:07 Error: [MissingViewException] View file "C:\wamp\www\cakephp-2.1.0\app\View\Usuarios\editar.ctp" is missing.
+#0 C:\wamp\www\cakephp-2.1.0\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp-2.1.0\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp-2.1.0\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\wamp\www\cakephp-2.1.0\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakephp-2.1.0\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-11-20 11:37:10 Error: [MissingControllerException] Controller class UsuarioController could not be found.
+#0 C:\wamp\www\cakephpCrud\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-11 22:09:56 Error: [MissingLayoutException] Layout file "C:\wamp\www\cakephpCrud\app\View\Layouts\Usuarios.teste.ctp" is missing.
+#0 C:\wamp\www\cakephpCrud\lib\Cake\View\View.php(501): View->_getLayoutFileName('Usuarios.teste')
+#1 C:\wamp\www\cakephpCrud\lib\Cake\View\View.php(471): View->renderLayout('', 'Usuarios.teste')
+#2 C:\wamp\www\cakephpCrud\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#3 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephpCrud\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-01-11 22:12:57 Error: [MissingLayoutException] Layout file "C:\wamp\www\cakephpCrud\app\View\Layouts\Usuarios.teste.ctp" is missing.
+#0 C:\wamp\www\cakephpCrud\lib\Cake\View\View.php(501): View->_getLayoutFileName('Usuarios.teste')
+#1 C:\wamp\www\cakephpCrud\lib\Cake\View\View.php(471): View->renderLayout('', 'Usuarios.teste')
+#2 C:\wamp\www\cakephpCrud\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#3 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephpCrud\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-01-11 22:13:59 Error: [MissingLayoutException] Layout file "C:\wamp\www\cakephpCrud\app\View\Layouts\Contacts.contact.ctp" is missing.
+#0 C:\wamp\www\cakephpCrud\lib\Cake\View\View.php(501): View->_getLayoutFileName('Contacts.contac...')
+#1 C:\wamp\www\cakephpCrud\lib\Cake\View\View.php(471): View->renderLayout('', 'Contacts.contac...')
+#2 C:\wamp\www\cakephpCrud\lib\Cake\Controller\Controller.php(962): View->render(NULL, NULL)
+#3 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#4 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\cakephpCrud\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-01-11 22:14:24 Error: [MissingActionException] Action UsuariosController::teste() could not be found.
+#0 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephpCrud\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-01-11 22:23:29 Error: [MissingViewException] View file "C:\wamp\www\cakephpCrud\app\View\Usuarios\Usuarios\teste.ctp" is missing.
+#0 C:\wamp\www\cakephpCrud\lib\Cake\View\View.php(460): View->_getViewFileName('Usuarios/teste')
+#1 C:\wamp\www\cakephpCrud\lib\Cake\Controller\Controller.php(962): View->render('Usuarios/teste', NULL)
+#2 C:\wamp\www\cakephpCrud\app\Controller\UsuariosController.php(17): Controller->render('Usuarios/teste')
+#3 [internal function]: UsuariosController->teste2()
+#4 C:\wamp\www\cakephpCrud\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#5 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\cakephpCrud\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-01-11 22:24:30 Error: [MissingViewException] View file "C:\wamp\www\cakephpCrud\app\View\Usuarios\Usuarios\index.ctp" is missing.
+#0 C:\wamp\www\cakephpCrud\lib\Cake\View\View.php(460): View->_getViewFileName('Usuarios/index')
+#1 C:\wamp\www\cakephpCrud\lib\Cake\Controller\Controller.php(962): View->render('Usuarios/index', NULL)
+#2 C:\wamp\www\cakephpCrud\app\Controller\UsuariosController.php(17): Controller->render('Usuarios/index')
+#3 [internal function]: UsuariosController->teste()
+#4 C:\wamp\www\cakephpCrud\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#5 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\cakephpCrud\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-01-11 22:24:32 Error: [MissingViewException] View file "C:\wamp\www\cakephpCrud\app\View\Usuarios\Usuarios\index.ctp" is missing.
+#0 C:\wamp\www\cakephpCrud\lib\Cake\View\View.php(460): View->_getViewFileName('Usuarios/index')
+#1 C:\wamp\www\cakephpCrud\lib\Cake\Controller\Controller.php(962): View->render('Usuarios/index', NULL)
+#2 C:\wamp\www\cakephpCrud\app\Controller\UsuariosController.php(17): Controller->render('Usuarios/index')
+#3 [internal function]: UsuariosController->teste()
+#4 C:\wamp\www\cakephpCrud\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#5 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\cakephpCrud\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-01-11 22:24:40 Error: [MissingViewException] View file "C:\wamp\www\cakephpCrud\app\View\Usuarios\Usuarios\index.ctp" is missing.
+#0 C:\wamp\www\cakephpCrud\lib\Cake\View\View.php(460): View->_getViewFileName('Usuarios/index')
+#1 C:\wamp\www\cakephpCrud\lib\Cake\Controller\Controller.php(962): View->render('Usuarios/index', NULL)
+#2 C:\wamp\www\cakephpCrud\app\Controller\UsuariosController.php(17): Controller->render('Usuarios/index')
+#3 [internal function]: UsuariosController->teste()
+#4 C:\wamp\www\cakephpCrud\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#5 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\cakephpCrud\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-01-11 22:25:10 Error: [MissingViewException] View file "C:\wamp\www\cakephpCrud\app\View\Usuarios\Usuarios\index.ctp" is missing.
+#0 C:\wamp\www\cakephpCrud\lib\Cake\View\View.php(460): View->_getViewFileName('Usuarios/index')
+#1 C:\wamp\www\cakephpCrud\lib\Cake\Controller\Controller.php(962): View->render('Usuarios/index', NULL)
+#2 C:\wamp\www\cakephpCrud\app\Controller\UsuariosController.php(17): Controller->render('Usuarios/index')
+#3 [internal function]: UsuariosController->teste()
+#4 C:\wamp\www\cakephpCrud\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#5 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\cakephpCrud\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2016-01-11 23:11:13 Error: [MissingTableException] Table users for model Usuario was not found in datasource default.
+#0 C:\wamp\www\cakephpCrud\lib\Cake\Model\Model.php(3380): Model->setSource('users')
+#1 C:\wamp\www\cakephpCrud\lib\Cake\Model\Model.php(2635): Model->getDataSource()
+#2 C:\wamp\www\cakephpCrud\app\Controller\UsuariosController.php(8): Model->find('all')
+#3 [internal function]: UsuariosController->index()
+#4 C:\wamp\www\cakephpCrud\lib\Cake\Controller\Controller.php(488): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#5 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\cakephpCrud\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
