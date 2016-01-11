@@ -1,6 +1,7 @@
 <?
 	echo print_r($usuarios,true);
 ?>
+<?php echo $this->Session->read('usuarioID'); ?>
 <?php 
 echo $this->Form->create('Usuario');
 echo $this->Form->input('field', array('options' => array(

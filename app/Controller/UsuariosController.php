@@ -1,15 +1,19 @@
 <?
 
 class UsuariosController extends AppController { 
-	public $helpers = array("Form", "Html"); 
+	public $helpers = array("Form", "Html", "Session"); 
 
-	public function index() { 
+	public function index() {
+		//$this->Session->valid()
+		$this->Session->destroy();
 		$this->set("title", "Usuários"); 
 		$usuarios = $this->Usuario->find('all'); 
 		$this->set('usuarios', $usuarios); 
 	}
 	
 	public function teste2() { 
+		$this->Session->write('usuarioID', 12);
+		$this->Session->write('usuarioNome', 'Thiago Belem');
 		$this->set("title", "Usuários"); 
 		$usuarios = $this->Usuario->find('all');
 		//$this->layout = 'Contacts.contact';
@@ -19,9 +23,10 @@ class UsuariosController extends AppController {
 
 	public function teste() { 
 		$this->set("title", "Usuários"); 
+		$usuario_ = $this->Session->read('usuarioID');
 		$usuarios = $this->Usuario->find('all');
 		//$this->layout = 'Contacts.contact';
-		$this->set('usuarios', $usuarios); 
+		$this->set(array('usuarios' => $usuarios, 'session' => $usuario_)); 
 		$this->render('teste');
 	}	
 	
