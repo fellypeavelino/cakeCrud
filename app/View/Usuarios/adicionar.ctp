@@ -1,7 +1,7 @@
 <?php
 	echo $this->Form->create('Usuario');
 	echo $this->Form->input('login',array(
-			'label' => __('Login', true).
+			'label' => __('Login', true),
 			'required' => 'require'
 		)
 	);

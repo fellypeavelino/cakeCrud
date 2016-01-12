@@ -1,6 +1,7 @@
 <?
 
 class UsuariosController extends AppController { 
+	//public $scaffold;
 	public $helpers = array("Form", "Html", "Session"); 
 
 	public function index() {
@@ -35,6 +36,7 @@ class UsuariosController extends AppController {
 		
 		if ($this->request->is("post")) { 
 			$this->Usuario->create(); 
+
 			if ($this->Usuario->saveAssociated($this->request->data)) { 
 				$this->Session->setFlash(__("Registro salvo com sucesso.")); 
 				$this->redirect(array("action" => '/index/')); 
@@ -48,6 +50,7 @@ class UsuariosController extends AppController {
 	public function editar($id = NULL) { 
 		$this->set("title", "Editar Usuário"); 
 		$this->Usuario->id = $id; 
+		
 		if (!$this->Usuario->exists()) { 
 			throw new NotFoundException(__('Registro não encontrado.')); 
 		} 
