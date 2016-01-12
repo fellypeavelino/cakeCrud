@@ -177,3 +177,23 @@
 #11 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(PessoasController), Object(CakeRequest), Object(CakeResponse))
 #12 C:\wamp\www\cakephpCrud\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
+2016-01-12 11:40:57 Error: [MissingActionException] Action AppController::index() could not be found.
+#0 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephpCrud\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-01-12 11:41:04 Error: [MissingActionException] Action AppController::views() could not be found.
+#0 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephpCrud\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-01-12 11:41:08 Error: [MissingActionException] Action AppController::view() could not be found.
+#0 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephpCrud\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-01-12 11:41:12 Error: [MissingActionException] Action AppController::view() could not be found.
+#0 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephpCrud\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakephpCrud\app\webroot\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
